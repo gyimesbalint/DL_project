@@ -10,3 +10,12 @@ Some of the class names are: Company, EducationalInstitution, Artist, Athlete
 
 ## Description
 The main role of this project is to create a neural network for document classification. As a first approach, only 5 classes are used to build networks. After that, the accuracy of classification is investigated after adding further classes to the dataset. Two ways of training are considered: based on multiple datasets, where the titles and the articles are different datasets, and based on a single dataset, after merging the title with the article. The difference of the two ways of training is investigated. 
+
+## Usage
+The current, up-to-date version of the code is located in the <code>fitting_test.ipynb</code>. At this point we train a basic model with only the titles from the used dataset.
+To train the model run all the cells in the following blocks designated by the corresponding markdown cells:
+- Importing datasets
+- Pre-processing
+- Model and fitting
+
+After the fitting is finished or the saved weights from the <code>model.hdf5</code> file are loaded the evaluation can be acquired by running all the cells in the Evaluation block.
