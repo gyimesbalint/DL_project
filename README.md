@@ -1,5 +1,5 @@
 # Deep Learning project - Document classification 
-This repository contains the project made for the course **Deep Learning in Practice with Python and LUA** (**BMEVITMAV45**) by <em>KornĂŠl TĂłth (AE92AW) </em>, <em>Zsolt Bartis (E4E2QK) </em>, <em>BĂĄlint Gyimes (Y46RYU) </em>
+This repository contains the project made for the course **Deep Learning in Practice with Python and LUA** (**BMEVITMAV45**) by <em>Kornél Tóth (AE92AW) </em>, <em>Zsolt Bartis (E4E2QK) </em>, <em>Bálint Gyimes (Y46RYU) </em> under the team named <em>Happy Deep Friends</em>
 
 ## Dataset
 For the training, the DBpedia dataset was used, which was obtained from the [source](https://drive.google.com/uc?export=download&id=0Bz8a_Dbh9QhbQ2Vic1kxMmZZQ1k) provided in pythorch documentation. 
@@ -25,3 +25,8 @@ Then either load the optimized model provided in the <code>params</code> diction
 Finally the model can be trained with the desired data (title,description,set) by running the code in the corresponding Model and fitting block.
 
 After the fitting is finished or the model(s) are loaded the evaluation can be acquired by running all the cells in the Evaluation block.
+
+## Results
+The trained models can be found in the repository as hdf5 files. Their names begin with model then the number shows how many classes were used and lastly the training data is specified.
+
+The evaluation of the whole project is documented in the <code>DL_HW.pdf</code>. The source files of this document can be found in the <code>DL-HW.zip</code> file.
